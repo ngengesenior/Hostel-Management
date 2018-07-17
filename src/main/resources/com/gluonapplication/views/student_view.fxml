@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="640.0" spacing="50.0" stylesheets="@add_student.css" xmlns="http://javafx.com/javafx/8.0.141">
+    <children>
+        <Label text="Student Info">
+            <VBox.margin>
+                <Insets top="30.0"/>
+            </VBox.margin>
+            <font>
+                <Font name="Roboto" size="34.0"/>
+            </font>
+        </Label>
+        <JFXTextField labelFloat="true" promptText="Full Name" styleClass="round_fields">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+        <JFXTextField labelFloat="true" promptText="UB Number" styleClass="round_fields">
+            <font>
+                <Font name="Roboto" size="16.0"/>
+            </font>
+        </JFXTextField>
+        <JFXTextField labelFloat="true" promptText="Department" styleClass="round_fields">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+        <JFXTextField labelFloat="true" promptText="Faculty" styleClass="round_fields">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </JFXTextField>
+        <JFXComboBox labelFloat="true" prefHeight="26.0" prefWidth="571.0" promptText="Select Hostel"/>
+        <TextField prefHeight="26.0" prefWidth="333.0" promptText="Enter Room Number"/>
+    </children>
+    <padding>
+        <Insets left="15.0" right="15.0"/>
+    </padding>
+</VBox>
