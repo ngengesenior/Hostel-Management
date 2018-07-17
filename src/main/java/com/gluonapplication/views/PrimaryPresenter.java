@@ -23,7 +23,7 @@ public class PrimaryPresenter {
                 AppBar appBar = MobileApplication.getInstance().getAppBar();
                 appBar.setNavIcon(MaterialDesignIcon.MENU.button(e ->
                         MobileApplication.getInstance().getDrawer().open()));
-                appBar.setTitleText("Primary");
+                appBar.setTitleText("Primary View");
                 appBar.getActionItems().add(MaterialDesignIcon.SEARCH.button(e ->
                         System.out.println("Search")));
             }
